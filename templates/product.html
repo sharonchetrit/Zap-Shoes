@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <title>{{ product.name }}</title>
+</head>
+<body>
+
+  <div class="container" id="entry-template">
+
+    <nav class="navbar navbar-dark bg-dark mt-3 mb-3">
+      <a class="navbar-brand text-warning" href="/">
+        <h3><i class="far fa-hand-peace"></i> zap</h3>
+      </a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="pb-3 pt-3">{{ product.name }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{ url_for('static', filename='images/') }}{{ product.image }}" alt="{{ product.name }}" class="img-thumbnail">
+      </div>
+
+      <div class="col-sm-4">
+        <h6>PRODUCT DETAILS</h6>
+        <ul>
+          <li>Nothing beats a fresh pair of trainers</li>
+          <li>Ideal for trail running</li>
+          <li>Lace-up fastening</li>
+          <li>Padded for comfort</li>
+          <li>Pull tab</li>
+          <li>Makes getting them on a little easier</li>
+          <li>EVA sole</li>
+          <li>It's soft, light and flexible</li>
+          <li>Moulded tread</li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4">
+        <h4 class="mb-3 text-warning">
+        {{product.rating}}
+        <i class="star-icon fas fa-star"></i>
+          {% for star in rating%}
+        </h4>
+        <p>For more than 100 years, New Balance has made it its goal to help people achieve theirs. The Boston-based brand mixes style with performance technology to create the best of fashion and function.</p>
+        <h3><span class="badge badge-secondary">$120</span></h3>
+        <button type="button" class="btn btn-warning btn-block text-white font-weight-bold"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+</html>

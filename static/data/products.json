@@ -1,0 +1,85 @@
+[{
+    "id": 1,
+    "name": "New Balance - Hierro Trail",
+    "price": 135,
+    "image": "1.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Asics - Hypergel Sai",
+    "price": 130,
+    "image": "2.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Converse - All Star '70",
+    "price": 120,
+    "image": "3.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Reebok - Rapid",
+    "price": 90,
+    "image": "4.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Nike - Air Span II",
+    "price": 99,
+    "image": "5.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "Adidas - Originals F22 Atric",
+    "price": 139,
+    "image": "6.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "name": "Nike - Zoom fly",
+    "price": 150,
+    "image": "7.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Reebok - Aztrek 90s",
+    "price": 100,
+    "image": "8.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "name": "Puma - Ignite Flash Evoknit",
+    "price": 85,
+    "image": "9.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 10,
+    "name": "Calvin Klein - Marvin",
+    "price": 175,
+    "image": "10.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "name": "Tommy Hilfiger - Baskets",
+    "price": 105,
+    "image": "11.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "name": "Calvin Klein - Ron",
+    "price": 180,
+    "image": "12.jpeg",
+    "rating": 4
+  }
+]
